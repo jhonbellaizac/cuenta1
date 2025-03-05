@@ -41,7 +41,10 @@ public void retirar (float cantidad){
     
 }
 
-
+public void interesMensual (){
+    
+    float intMensual = (float) (saldo * (1+ 0.20 *1));
+}
     
 }
 
