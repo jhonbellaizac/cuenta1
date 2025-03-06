@@ -3,7 +3,7 @@ public class Principal {
     public static void main(String[] args) {
 
       
-        Cuenta cuenta= new Cuenta (1000000, 0);
+        Cuenta cuenta= new Cuenta (100000, 0);
         cuenta.imprimir();
         System.out.println("");
         
@@ -14,9 +14,11 @@ public class Principal {
         cuenta.retirar(25200);
         cuenta.imprimir();
         System.out.println("");
+
         
-       
-        
+        cuenta.interesMensual();
+        cuenta.imprimir();
+        System.out.println("");
     }
     
 }
