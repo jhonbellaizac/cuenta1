@@ -41,12 +41,6 @@ public void retirar (float cantidad){
     
 }
 
-public void interesMensual (){
-    
-
-
-
-}
 
 
 }

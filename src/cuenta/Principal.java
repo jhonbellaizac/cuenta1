@@ -18,9 +18,7 @@ public class Principal {
 
 
         
-        cuenta.interesMensual();
-        cuenta.imprimir();
-        System.out.println("");
+      
     }
     
 }
